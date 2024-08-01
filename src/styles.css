@@ -37,6 +37,8 @@ body{
 	background-color: rgba(255, 0, 0, 0.1);
 }
 
+
+
 h1, h2, h3, h4{
 	font-family: "Oswald", sans-serif;
 	font-style: normal;
@@ -99,17 +101,14 @@ section{
 	padding: 8px 16px;
 }
 
-
 /* hero section */
 .heroSection{
 	height: 520px;
-	background-image: 
-	radial-gradient(at 0% 50%, rgba(161, 168, 15,0.25), rgba(152,179,162, 0.35)),
-	url("https://images.adsttc.com/media/images/6697/d8e9/7d3e/0801/7c35/4fb0/slideshow/spring-feast-restaurant-ippolito-fleitz-group_2.jpg?1721227515");
+	background-image: url("Images/hero-photo.jfif");
 	background-position: center;
 	background-size: cover;
 	margin: 0px auto;
-	padding: 16px;
+	padding: 16px calc((100% - 20%) * 0.12);
 	border: #222222 solid 1px;
 	display: flex;
 	justify-content: center;
@@ -120,7 +119,7 @@ section{
 	width: 100%;
 	color: #111111;
 	text-align: center;
-	margin: auto;
+	margin:auto;
 	padding: 28px 32px;
 	background-color: var(--third-color);
 	border: var(--second-color) solid 1px;
@@ -171,13 +170,13 @@ section{
 
 .servise-purposes{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 
 }
 
 .servise-purpose{
 	border: #222222 solid 1px;
-	width: calc(25%-6);
+	width: calc(25% - 6%);
 	min-height: 250px;
 	background-color: var(--second-color);
 }

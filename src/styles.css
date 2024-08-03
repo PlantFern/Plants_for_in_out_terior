@@ -103,9 +103,11 @@ section{
 /* hero section */
 .heroSection{
 	height: 520px;
-	background-image: url("Images/hero-photo.jfif");
-	background-position: center;
+	background-image: url('Images/hero_img.jpeg');
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 	margin: 0px auto;
 	padding: 16px;
 	border: #222222 solid 1px;

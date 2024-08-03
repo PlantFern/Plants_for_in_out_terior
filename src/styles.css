@@ -103,7 +103,7 @@ section{
 /* hero section */
 .heroSection{
 	height: 520px;
-	background-image: url('Images/hero_img.jpeg');
+	background-image: url('Images/hero-img.jfif') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -117,7 +117,7 @@ section{
 }
 
 .heroSection .textOnHero{
-	width: 35.2%;
+	max-width: 500px;
 	margin:auto;
 	padding: 28px 32px;
 	text-align: center;

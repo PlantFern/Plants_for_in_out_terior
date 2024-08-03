@@ -104,7 +104,7 @@ section{
 /* hero section */
 .heroSection{
 	height: 520px;
-	background-image: url("/Images/hero-photo.jfif");
+	background-image: url("Images/hero-photo.jfif");
 	background-position: center;
 	background-size: cover;
 	margin: 0px auto;

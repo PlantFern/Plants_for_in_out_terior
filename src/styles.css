@@ -101,6 +101,7 @@ section{
 	padding: 8px 16px;
 }
 
+
 /* hero section */
 .heroSection{
 	height: 520px;
@@ -108,7 +109,8 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	margin: 0px auto;
+	margin: 0px;
+	margin-top: 70.2;
 	padding: 16px;
 	border: #222222 solid 1px;
 	display: flex;

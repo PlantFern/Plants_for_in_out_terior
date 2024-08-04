@@ -22,6 +22,7 @@ body{
 	background-color: var(--third-color);
 }
 
+/*
 .grid{
 	height:100%;
 	position: fixed;
@@ -36,7 +37,7 @@ body{
 	width: calc(100%/18);
 	background-color: rgba(255, 0, 0, 0.1);
 }
-
+*/
 
 
 h1, h2, h3, h4{
@@ -103,11 +104,10 @@ section{
 /* hero section */
 .heroSection{
 	height: 520px;
-	background-image: url('Images/hero-img.jfif') !important;
+	background-image: url('Images/hero-img.jpg') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-attachment: fixed;
 	margin: 0px auto;
 	padding: 16px;
 	border: #222222 solid 1px;

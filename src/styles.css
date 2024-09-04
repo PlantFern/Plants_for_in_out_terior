@@ -6,7 +6,7 @@
     --secondary-font-color: #f7f3dc;
 
 
-
+    margin: 0px;
     font-size: 16px;
 }
 
@@ -14,7 +14,7 @@ body{
     background-color: var(--secondary-color);
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    margin: 0px;
+    margin: 0px, 20%;
 }
 
 h1, h2, h3, h4{
